@@ -16,12 +16,12 @@ Das Projekt ist wie folgt organisiert:
 
 ```plaintext
 nlp-assignment/
-├── 📂 data/                       # Enthält Embeddings oder Daten
+├── data/                       # Enthält Embeddings oder Daten
 │   ├── glove.twitter.27B.200d.txt # GloVe-Embeddings (nicht enthalten)
 │   ├── emoji2vec.txt              # Emoji2Vec-Embeddings (nicht enthalten)
 ├── notebooks/                     # Optional: Jupyter-Notebook für Analysen
 │   ├── nlp_assignment.ipynb       # Enthält erklärende Zellen und Code
-├── 📂 src/                        # Enthält alle Python-Skripte
+├── src/                        # Enthält alle Python-Skripte
 │   ├── dataset_preparation.py     # Funktionen zum Laden und Aufteilen der Daten
 │   ├── download_data.py           # Lädt notwendige NLTK-Daten
 │   ├── main.py                    # Hauptskript zur Ausführung der Pipeline
