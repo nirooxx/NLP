@@ -19,8 +19,9 @@ parent-folder/
 ├── data/                       # Enthält Embeddings oder Daten
 │   ├── glove.twitter.27B.200d.txt # GloVe-Embeddings (nicht enthalten)
 │   ├── emoji2vec.txt              # Emoji2Vec-Embeddings (nicht enthalten)
-├── notebooks/                     # Optional: Jupyter-Notebook für Analysen
-│   ├── nlp_assignment.ipynb       # Enthält erklärende Zellen und Code
+├── notebooks/                     # Enthält die PDF für Aufgabe 4 und das Jupyter-Notebook
+│   ├── nlp_assignment.ipynb       # Jupyter-Notebook für Aufgaben 1-3
+│   ├── Assignment_Task4.pdf       # PDF-Dokumentation für Aufgabe 4
 ├── src/                        # Enthält alle Python-Skripte
 │   ├── dataset_preparation.py     # Funktionen zum Laden und Aufteilen der Daten
 │   ├── download_data.py           # Lädt notwendige NLTK-Daten
@@ -132,6 +133,8 @@ Falls GloVe und BERT zu viel Speicher beanspruchen, können Sie kleinere Embeddi
 - **Hyperparameter-Tuning**: Verbesserung der Genauigkeit durch Optimierung von LightGBM.
 - **Datenaugmentation**: Erhöhen der Trainingsdaten durch Synonymersetzung oder Übersetzungen.
 - **Andere Embeddings**: Testen von Alternativen wie FastText oder RoBERTa.
+
+> **Hinweis**: Die Zusammenfassung für Aufgabe 4 befindet sich im Ordner `notebooks/` und ist als `NLP_Assignment_Nangiale_Shir_8151475_Aufgabe_4.pdf` verfügbar.
 
 ## GitHub-Link
 
