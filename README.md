@@ -82,7 +82,7 @@ Während der Ausführung:
 - Trainiert ein LightGBM-Modell und bewertet dessen Leistung.
 
 ### 4. Ergebnisse
-Nach der erfolgreichen Ausführung des Projekts siehst du:
+Nach der erfolgreichen Ausführung des Projekts sehen Sie:
 
 1. **Testgenauigkeit** des Modells:  
    - Die Gesamtgenauigkeit, beispielsweise `96.40%`.
@@ -117,7 +117,7 @@ Diese Ergebnisse bieten Einblicke in die Leistungsfähigkeit des Modells und hel
 Falls Fehler auftreten:
 
 - **Abhängigkeiten nicht installiert**:  
-  Stelle sicher, dass du folgenden Befehl ausgeführt hast:  
+  Stelle sicher, dass Sie folgenden Befehl ausgeführt haben:  
 ```bash
   pip install -r requirements.txt
 ```
@@ -126,7 +126,7 @@ Falls Fehler auftreten:
 Überprüfe, ob die Dateien `glove.twitter.27B.200d.txt` und `emoji2vec.txt` im Ordner `data/` vorhanden sind.
 
 - **Speicherprobleme**:
-Falls GloVe und BERT zu viel Speicher beanspruchen, kannst du kleinere Embeddings verwenden oder das Projekt mit nur TF-IDF und Emoji2Vec ausführen.
+Falls GloVe und BERT zu viel Speicher beanspruchen, können Sie kleinere Embeddings verwenden oder das Projekt mit nur TF-IDF und Emoji2Vec ausführen.
 
 ## Erweiterungsmöglichkeiten
 - **Hyperparameter-Tuning**: Verbesserung der Genauigkeit durch Optimierung von LightGBM.
