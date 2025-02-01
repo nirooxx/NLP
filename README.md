@@ -15,7 +15,7 @@ Es kombiniert verschiedene moderne NLP-Techniken wie:
 Das Projekt ist wie folgt organisiert:
 
 ```plaintext
-nlp-assignment/
+parent-folder/
 ├── data/                       # Enthält Embeddings oder Daten
 │   ├── glove.twitter.27B.200d.txt # GloVe-Embeddings (nicht enthalten)
 │   ├── emoji2vec.txt              # Emoji2Vec-Embeddings (nicht enthalten)
@@ -42,7 +42,7 @@ Für die Ausführung des Projekts werden folgende Voraussetzungen benötigt:
 ### 1. Installiere die Abhängigkeiten
 Navigiere in das Projektverzeichnis:
 ```bash
-cd nlp-assignment
+cd parent-folder
 ```
 Installiere die benötigten Python-Bibliotheken:
 
@@ -132,6 +132,12 @@ Falls GloVe und BERT zu viel Speicher beanspruchen, können Sie kleinere Embeddi
 - **Hyperparameter-Tuning**: Verbesserung der Genauigkeit durch Optimierung von LightGBM.
 - **Datenaugmentation**: Erhöhen der Trainingsdaten durch Synonymersetzung oder Übersetzungen.
 - **Andere Embeddings**: Testen von Alternativen wie FastText oder RoBERTa.
+
+## GitHub-Link
+
+Das Projekt ist auch auf GitHub verfügbar:  
+[GitHub-Repository](https://github.com/nirooxx/NLP)
+
 
 
 
