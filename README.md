@@ -16,20 +16,20 @@ Das Projekt ist wie folgt organisiert:
 
 ```plaintext
 parent-folder/
-├── data/                       # Enthält Embeddings oder Daten
-│   ├── glove.twitter.27B.200d.txt # GloVe-Embeddings (nicht enthalten)
-│   ├── emoji2vec.txt              # Emoji2Vec-Embeddings (nicht enthalten)
-├── notebooks/                     # Enthält die PDF für Aufgabe 4 und das Jupyter-Notebook
-│   ├── nlp_assignment.ipynb       # Jupyter-Notebook für Aufgaben 1-3
-│   ├── Assignment_Task4.pdf       # PDF-Dokumentation für Aufgabe 4
-├── src/                        # Enthält alle Python-Skripte
-│   ├── dataset_preparation.py     # Funktionen zum Laden und Aufteilen der Daten
-│   ├── download_data.py           # Lädt notwendige NLTK-Daten
-│   ├── main.py                    # Hauptskript zur Ausführung der Pipeline
-│   ├── preprocess.py              # Funktionen für Textbereinigung und Feature-Engineering
-│   ├── train_model.py             # Training, Bewertung und Visualisierung des Modells
-├── requirements.txt               # Liste der Python-Bibliotheken
-├── README.md                      # Projektbeschreibung und Anleitung
+├── data/                      
+│   ├── glove.twitter.27B.200d.txt 
+│   ├── emoji2vec.txt             
+├── notebooks/                    
+│   ├── nlp_assignment.ipynb       
+│   ├── Assignment_Task4.pdf     
+├── src/                      
+│   ├── dataset_preparation.py     
+│   ├── download_data.py         
+│   ├── main.py                  
+│   ├── preprocess.py             
+│   ├── train_model.py           
+├── requirements.txt            
+├── README.md             
 ```
 ## Voraussetzungen
 Für die Ausführung des Projekts werden folgende Voraussetzungen benötigt:
